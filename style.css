@@ -1,0 +1,219 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-size: 1.5em;
+}
+
+header {
+  width: 100%;
+  height: 92%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  background-image: url(https://cdna.artstation.com/p/marketplace/presentation_assets/001/050/880/large/file.jpg?1626079780);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+header button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #e34a6f;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+header button:hover {
+  background-color: #e4a3b3;
+}
+
+header img {
+  z-index: 2;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+  margin-bottom: 53vh;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav {
+  background-color: #3185FC;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 45px;
+  height: 6vh;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav div:hover,
+nav div.selected {
+  display: block;
+}
+
+nav div:hover a {
+  color: #72abfc;
+  border-bottom: 1px solid #72abfc;
+  font-weight: bold;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  width: 75vw;
+  padding: 20px;
+  margin: 20px 15%;
+  color: black;
+  font-size: 1.1em;
+  max-width: 70vw;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px;
+  border-left: 3px solid #fac710;
+  padding-bottom: 20px;
+}
+
+.content img {
+  float: right;
+  width: 20%;
+  height: 20%;
+  padding-left: 20px;
+  margin-top: -50px;
+}
+
+.content #city {
+  float: right;
+  width: 30%;
+  height: 30%;
+  padding-left: 20px;
+  margin-top: -50px;
+}
+
+.earth {
+  width: 20%;
+  height: 20%;
+}
+
+#doel {
+  border-left: 3px solid #f6382c;
+}
+
+#werking {
+  border-left: 3px solid #3185fc;
+  height: 30vh;
+}
+
+#ons {
+  border-left: 3px solid #8fd14f;
+}
+
+#contact {
+  border-left: 3px solid #e34a6f;
+  height: 50vh;
+}
+
+footer {
+  background: #72abfc;
+  object-fit: cover;
+  margin: 0;
+  height: 10vh;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer li {
+  display: table-cell;
+  margin: 5px;
+  padding: 10px;
+  vertical-align: top;
+  position: relative;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+input[type=text],
+[type=tel],
+[type=number],
+[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#submit {
+  background-color: #3185FC;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #72abfc;
+}
