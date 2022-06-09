@@ -25,7 +25,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #eee;
-  background-image: url(https://cdna.artstation.com/p/marketplace/presentation_assets/001/050/880/large/file.jpg?1626079780);
+  background-image: url('./img/header.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ button a {
 
 
 nav {
-  background-color: #3185FC;
+  background-color: #213647;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
@@ -107,29 +107,31 @@ section {
   max-width: 70vw;
   font-family: "Raleway", sans-serif;
   border-radius: 10px;
-  border-left: 3px solid #fac710;
   padding-bottom: 20px;
 }
 
 .content img {
   float: right;
-  width: 20%;
-  height: 20%;
+  width: 40%;
+  height: 40%;
   padding-left: 20px;
   margin-top: -50px;
 }
 
 .content #city {
   float: right;
-  width: 30%;
-  height: 30%;
-  padding-left: 20px;
-  margin-top: -50px;
+  width: 40%;
+  height: 40%;
 }
 
 .earth {
   width: 20%;
   height: 20%;
+}
+
+#game{
+  border-left: 3px solid #ff8c17;
+  height: 40vh;
 }
 
 #doel {
@@ -148,6 +150,15 @@ section {
 #contact {
   border-left: 3px solid #e34a6f;
   height: 50vh;
+}
+
+.container{
+  display: flex;
+}
+
+.child{
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 footer {
