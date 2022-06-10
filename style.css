@@ -74,7 +74,7 @@ button a {
 
 
 nav {
-  background-color: #213647;
+  background-color: #134776;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
@@ -149,13 +149,13 @@ section {
 
 #styleguide{
   width: 100%;
-  height: 90%;
+  height: 80%;
   margin-top: 50px;
 }
 
 #contact {
   border-left: 3px solid #8b112a;
-  height: 50vh;
+  height: 60vh;
 }
 
 .container{
@@ -168,7 +168,7 @@ section {
 }
 
 footer {
-  background: #72abfc;
+  background: #a16d9b;
   object-fit: cover;
   margin: 0;
   height: 10vh;
